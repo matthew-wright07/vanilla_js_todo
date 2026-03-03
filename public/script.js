@@ -17,7 +17,7 @@ function createTodo(){
     div.classList.add("todo")
 
     let image = document.createElement("img")
-    image.src = "./delete.svg"
+    image.src = "./images/delete.svg"
     image.addEventListener("click", ()=>{
         div.remove()
     })
